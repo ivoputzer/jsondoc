@@ -1,0 +1,15 @@
+{
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)",
+  "contributors": [
+    "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)"
+  ],
+  "description":"generates html documentation for json-schema",
+  "keywords": [
+    "node",
+    "module",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "name": "jsondoc",
+  "version": "0.0.0-rc.2"
+}
