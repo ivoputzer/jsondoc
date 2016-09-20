@@ -3,7 +3,8 @@
   "contributors": [
     "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)"
   ],
-  "description":"generates html documentation for json-schema",
+  "description": "generates html documentation for json-schema",
+  "bin": "bin/jsondoc",
   "keywords": [
     "node",
     "module",
@@ -11,5 +12,26 @@
   ],
   "license": "MIT",
   "name": "jsondoc",
-  "version": "0.0.0-rc.2"
+  "version": "0.0.0-rc.3",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "node": "node",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoputzer/jsondoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivoputzer/jsondoc/issues"
+  },
+  "homepage": "https://github.com/ivoputzer/jsondoc#readme"
 }
